@@ -7,5 +7,6 @@ import { Component, signal } from '@angular/core';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('java-angular-cicd-example');
+  title: string = "Angular Deployment Example"
+  
 }
