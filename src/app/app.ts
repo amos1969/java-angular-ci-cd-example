@@ -4,9 +4,9 @@ import { Component, signal } from '@angular/core';
   selector: 'app-root',
   templateUrl: './app.html',
   standalone: false,
-  styleUrl: './app.css'
+  styleUrl: './app.css',
 })
 export class App {
-  title: string = "Angular Deployment Example"
-  
+  title: string = 'Angular Deployment Example';
+  days: number = 0;
 }
