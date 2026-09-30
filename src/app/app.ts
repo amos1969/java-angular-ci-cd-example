@@ -8,5 +8,5 @@ import { Component, signal } from '@angular/core';
 })
 export class App {
   title: string = 'Angular Deployment Example';
-  days: number = 3;
+  days: number = 385;
 }
